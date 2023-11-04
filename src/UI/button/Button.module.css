@@ -1,0 +1,18 @@
+.customBtn {
+	padding: 10px 20px;
+	color: #6c62fb;
+	font-size: 14px;
+	background-color: rgba(0, 0, 0, .4);
+	backdrop-filter: blur(20px);
+	border: 2px solid #6c62fb;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all .2s ease;
+}
+.customBtn:hover {
+	opacity: 0.8;
+}
+.customBtn:active {
+	border-color: #efefef;
+	opacity: 0.7;
+}

@@ -1,0 +1,10 @@
+.customInput {
+	width: 100%;
+	padding: 10px 15px;
+	margin: 0px 0px 5px 0px;
+	border: 2px solid #6c62fb;
+	background-color: rgba(0, 0, 0, .4);
+	backdrop-filter: blur(20px);
+	border-radius: 10px;
+	color: #efefef;
+}
