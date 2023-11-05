@@ -40,7 +40,7 @@ body {
 	background: #6c62fb;
 	padding: 10px 20px;
 	border-radius: 10px;
-	user-select: none;
+	cursor: pointer;
 	display: flex;
 	align-items: center;
 }
@@ -341,7 +341,13 @@ h2 {
 	width: 100%;
 	margin-top: 15px;
 }
-
 .titler {
 	text-wrap: nowrap;
+}
+
+/* reCaptcha */
+.recaptcha {
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
 }

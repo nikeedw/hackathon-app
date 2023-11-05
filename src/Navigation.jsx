@@ -6,9 +6,9 @@ const Navigation = () => {
 			<div className="logo">
 				<span className="mainlogo">
 					PEACE&#183;
-					</span>
-					BUILDING
-				</div>
+				</span>
+				BUILDING
+			</div>
 			<ul>
 				<li><Link to="/">Home</Link></li>
 				<li><Link to="/post">Post</Link></li>

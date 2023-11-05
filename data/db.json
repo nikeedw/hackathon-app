@@ -1,18 +1,18 @@
 {
   "posts": [
     {
-      "id": 3,
-      "title": "New",
-      "datetime": "November 05, 2023 2:11:56 AM",
-      "body": "Post",
-      "imageUrl": "blob:http://localhost:3000/e9e80910-d40e-4a8b-8bf7-6b011d9cfb57"
-    },
-    {
       "id": 4,
       "title": "Ignoranta",
-      "datetime": "November 05, 2023 2:16:14 AM",
+      "datetime": "November 05, 2023 9:27:06 AM",
       "body": "Moldova",
-      "imageUrl": "blob:http://localhost:3000/5a95f5ae-f399-4ec7-be8a-3688eddb2236"
+      "imageUrl": "blob:http://localhost:3000/6d4ea461-4691-4697-9155-f8510190aa6e"
+    },
+    {
+      "id": 5,
+      "title": "нарушение прав человека",
+      "datetime": "November 05, 2023 10:34:04 AM",
+      "body": "описАНИЕ",
+      "imageUrl": "blob:http://localhost:3000/b28e8be7-0f1f-4afc-b7e9-9acbd7c2dc0a"
     }
   ]
 }
