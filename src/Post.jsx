@@ -5,7 +5,7 @@ const Post = ({ post }) => {
 		<article className="post">
 			<div>
 				<div className='content'>
-					<h2>{post.title}</h2>
+					<h2 className="titler">{post.title}</h2>
 					<p style={{userSelect: 'none'}} className="postDate">{post.datetime}</p>
 				</div>
 				<p className="postBody">{

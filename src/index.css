@@ -6,9 +6,14 @@
   box-sizing: border-box;
 }
 body {
-	background-color: #202025;
-	color: #efefef;
+  margin: 0; /* Уберет внешний отступ у body */
+  padding: 0; /* Уберет внутренний отступ у body */
+  background: url(https://all-aforizmy.ru/wp-content/uploads/2023/07/1645053312_1-fikiwiki-com-p-kartinki-oon-1.jpg);
+  background-size: cover; /* Растянет фон на весь экран */
+  background-position: center; /* Выравняет фон по центру */
+  color: #efefef;
 }
+
 #root {
 	display: flex;
 	flex-direction: column;
@@ -45,6 +50,7 @@ body {
 	color: #000;
 }
 .Navigation {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 60px;
   width: 100%;
   display: flex;
@@ -94,6 +100,9 @@ body {
   position: absolute;
   left: -99999px;
 }
+.searchForm .customInput {
+	background-color: rgba(0, 0, 0, .8);
+}
 .customInput {
 	font-family: 'Open Sans', sans-serif;
 	width: 100%;
@@ -102,6 +111,9 @@ body {
 	background-color: rgba(0, 0, 0, .4);
 	backdrop-filter: blur(20px);
 	border-radius: 10px;
+	color: #efefef;
+}
+.customInput::placeholder {
 	color: #efefef;
 }
 .Home {
@@ -115,6 +127,8 @@ body {
 	text-align: center;
 }
 .post {
+	background: rgba(0, 0, 0, .8);
+	backdrop-filter: blur(20px);
 	display: flex;
 	padding: 15px;
 	border: 3px solid #6c62fb;
@@ -187,18 +201,24 @@ h2 {
 .PostPage .post_btns {
 	display: flex;
 }
+.NewPostPage {
+	background: rgba(0, 0, 0, .8);
+	backdrop-filter: blur(20px);
+	border: 3px solid #4b3aaf;
+	margin-top: 40px;
+	padding: 20px;
+	border-radius: 20px;
+}
 .newPost {
   display: flex;
   flex-direction: column;
 }
 .newPost label {
-  margin-top: 1rem;
-}
-.newPost label {
 	font-size: 1.2rem;
 	font-weight: bold;
 	margin: 10px 0px;
-	color: #6c62fb;
+	color: whitesmoke;
+	margin-top: 1rem;
 } 
 .newPost textarea {
   font-family: 'Open Sans', sans-serif;
@@ -228,10 +248,9 @@ h2 {
   cursor: pointer;
 	border: none;
 	color: #efefef;
-	background: linear-gradient(90deg, #9b84ee, #4b3aaf);
-	transition: opacity 0.2s;
+	background: linear-gradient(90deg, #9b84ee, #311e99);
+	transition: all 0.35s ease;
 }
-
 .PathError {
 	display: flex;
 	flex-direction: column;
@@ -243,7 +262,8 @@ h2 {
 
 /* DONATE */
 .Donate {
-	background: rgba(0, 0, 0, .6);
+	background: rgba(0, 0, 0, .8);
+	backdrop-filter: blur(20px);
 	border: 3px solid #6c62fb;
 	border-radius: 20px;
 	padding: 10px;
@@ -309,15 +329,19 @@ h2 {
   padding: 20px;
   text-align: center;
   cursor: pointer;
-  background-color: #f8f8f8;
+  background: rgba(25, 61, 112, .7);
+	backdrop-filter: blur(20px);
 }
 .dropzone p {
   margin: 0;
 	color: black;
 }
 .image {
-	max-width: 800px;
+	height: 100%;
+	width: 100%;
 	margin-top: 15px;
 }
 
-
+.titler {
+	text-wrap: nowrap;
+}

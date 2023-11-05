@@ -72,7 +72,7 @@ const EditPost = () => {
 						/>
 						<div {...getRootProps()} className="dropzone">
 							<input {...getInputProps()} />
-							<p>Drag &amp; drop images here, or click to select files</p>
+							<p style={{color: "white"}}>Drag &amp; drop images here, or click to select files</p>
 						</div>
 
 						{/* Отображение текущей фотографии */}

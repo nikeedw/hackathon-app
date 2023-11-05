@@ -1,3 +1,18 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "id": 3,
+      "title": "New",
+      "datetime": "November 05, 2023 2:11:56 AM",
+      "body": "Post",
+      "imageUrl": "blob:http://localhost:3000/e9e80910-d40e-4a8b-8bf7-6b011d9cfb57"
+    },
+    {
+      "id": 4,
+      "title": "Ignoranta",
+      "datetime": "November 05, 2023 2:16:14 AM",
+      "body": "Moldova",
+      "imageUrl": "blob:http://localhost:3000/5a95f5ae-f399-4ec7-be8a-3688eddb2236"
+    }
+  ]
 }
