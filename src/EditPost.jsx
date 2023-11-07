@@ -81,10 +81,10 @@ const EditPost = () => {
 						{/* Отображение загруженных файлов */}
 						{uploadedFiles.length > 0 && (
 							<div>
-								<p>Uploaded Files:</p>
+								<p style={{marginTop: 10}}>Uploaded Files:</p>
 								<ul>
 									{uploadedFiles.map((file) => (
-										<li key={file.name}>{file.name}</li>
+										<li style={{marginLeft: 20}} key={file.name}>{file.name}</li>
 									))}
 								</ul>
 							</div>

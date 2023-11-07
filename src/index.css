@@ -6,14 +6,12 @@
   box-sizing: border-box;
 }
 body {
-  margin: 0; /* Уберет внешний отступ у body */
-  padding: 0; /* Уберет внутренний отступ у body */
-  background: url(https://all-aforizmy.ru/wp-content/uploads/2023/07/1645053312_1-fikiwiki-com-p-kartinki-oon-1.jpg);
-  background-size: cover; /* Растянет фон на весь экран */
-  background-position: center; /* Выравняет фон по центру */
+  margin: 0;
+  padding: 0;
+  background: url("https://sfwallpaper.com/images/background-image-for-website-1.jpg") no-repeat center center fixed;
+  background-size: cover;
   color: #efefef;
 }
-
 #root {
 	display: flex;
 	flex-direction: column;
@@ -21,18 +19,16 @@ body {
 }
 .MainList {
 	width: 100%;
-	height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 .App {
 	max-width: 800px;
-	width: 80%;
-	min-width: 440px;
-	padding: 10px 20px;
+	width: 100%;
+	padding: 20px 10px 20px 10px;
 	position: relative;
-	height: calc(100vh - 60px)
+	height: calc(100% - 60px);
 }
 .logo {
 	font-family: 'Segoe UI';
@@ -57,8 +53,8 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
-	background-color: rgba(0, 0, 0, .6);
-	backdrop-filter: blur(30px);
+	background-color: rgba(0, 0, 0, .8);
+	outline: 2px solid #6c62fb;
 }
 .Navigation ul {
 	flex: 1;
@@ -205,7 +201,6 @@ h2 {
 	background: rgba(0, 0, 0, .8);
 	backdrop-filter: blur(20px);
 	border: 3px solid #4b3aaf;
-	margin-top: 40px;
 	padding: 20px;
 	border-radius: 20px;
 }
@@ -239,7 +234,7 @@ h2 {
 	margin-bottom: 20px;
 }
 .submit {
-  margin-top: 1rem;
+  margin-top: 20px;
   height: 48px;
   min-width: 48px;
   border-radius: 10px;
@@ -266,14 +261,10 @@ h2 {
 	backdrop-filter: blur(20px);
 	border: 3px solid #6c62fb;
 	border-radius: 20px;
+	margin-top: 20px;
+	height: 600px;
 	padding: 10px;
 	display: flex;
-	margin-inline: 20px;
-	position: absolute;
-	top: 60px;
-	bottom: 80px;
-	left: 0;
-	right: 0px;
 	justify-content: flex-start;
 	flex-direction: column;
 	align-items: center;
@@ -328,6 +319,7 @@ h2 {
   border-radius: 4px;
   padding: 20px;
   text-align: center;
+	margin-bottom: 20px;
   cursor: pointer;
   background: rgba(25, 61, 112, .7);
 	backdrop-filter: blur(20px);
@@ -339,7 +331,6 @@ h2 {
 .image {
 	height: 100%;
 	width: 100%;
-	margin-top: 15px;
 }
 .titler {
 	text-wrap: nowrap;
@@ -349,5 +340,4 @@ h2 {
 .recaptcha {
 	display: flex;
 	justify-content: center;
-	margin-top: 15px;
 }
